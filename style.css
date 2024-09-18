@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(100deg, #D9F2D9, #adeb83);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    /* background-color: #6B8E23; */
+    /* background-color: wheat; */
+    background-color:   #2F4F4F;
+
+    color: white;
+    padding: 20px;
+}
+.home-icon i{
+    font-size: 30px;
+}
+.logo{
+    border: 1px solid red;
+    padding: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo-left{
+    gap: 23px;
+}
+.nav-texts ul{
+    gap: 22px;
+    font-size: 21px;
+    /* text-decoration: none; */
+}
+.nav-texts a{
+    color: white;
+    text-decoration: none;
+}
+.nav-texts ul li{
+    list-style: none;
+}
+.hero-section img{
+    filter: brightness(0.5);
+    width: 98.8vw;
+    height: 80vh;
+    position: relative;
+    /* opacity: 0.7; */
+    /* overflow-x: hidden; */
+
+}
+.missions{
+    bottom: 70px;
+    padding: 15px;
+    position: absolute;
+    opacity: 1;
+    z-index: 5;
+    height: 137px;
+    width: 1292px;
+    /* border: 2px solid rgb(38, 242, 65); */
+    /* background-color:black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 39px;
+    text-align: center;
+}
+.missions-text p{
+    /* color: #143526; */
+    color: white;
+    /* opacity: 20;
+    z-index: 5; */
+    font-size: 16px;
+    font-weight: 550;
+}
+.get-started button{
+    font-size: 22px;
+    font-weight: 800;
+    padding: 15px;
+    border-radius: 50px;
+    background:linear-gradient(rgb(72, 18, 235),rgb(251, 39, 248));
+    border-style: none;
+}
+.procedures{
+    height: 400px;
+    /* width: 800px; */
+    display: flex;
+    margin:10px;
+    gap: 35px;
+    display: flex;
+    /* flex-direction: column; */
+}
+.procedures div{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    /* background:linear-gradient(#77d07d,#6B8E23); */
+    /* background: linear-gradient(135deg, #aeef2c, #87CEEB); */
+    background: linear-gradient(135deg, #95dd65, #D9F2D9);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+#howitworks{
+    margin-left: 20px;
+}
+
